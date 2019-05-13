@@ -1,11 +1,13 @@
 "General
 syntax on
+colorscheme monokai				"set color theme
 set number 					"Show line numbers
 set linebreak 					"Break lines at word (requires Wrap lines)
 set showbreak=+++ 				"Wrap-broken line prefix
 set textwidth=100				"Line wrap (number of cols)
 set showmatch					"Highlight matching brace
-set visualbell					"Use visual bell (no beeping)
+set cursorline					"highlight current line
+hi CursorLine term=bold cterm=bold guibg=Grey40	
 
 "Search
 set hlsearch					"Highlight all search results
@@ -24,3 +26,14 @@ set softtabstop=2				"Number of spaces per Tab
 set ruler					"Show row and column ruler information
 set undolevels=1000				"Number of undo levels
 set backspace=indent,eol,start			"Backspace behaviour
+
+" move to beginning/end of line
+nnoremap B ^
+nnoremap E $
+" $/^ doesn't do anything
+nnoremap $ <nop>
+nnoremap ^ <nop>
+
+" turn off search highlight
+nnoremap /<space> :nohlsearch<CR>
+
