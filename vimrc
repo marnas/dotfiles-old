@@ -1,7 +1,7 @@
 "General
 syntax on
 colorscheme monokai				"set color theme
-set number 					"Show line numbers
+set number relativenumber			"Show line numbers
 set linebreak 					"Break lines at word (requires Wrap lines)
 set showbreak=+++ 				"Wrap-broken line prefix
 set textwidth=100				"Line wrap (number of cols)
