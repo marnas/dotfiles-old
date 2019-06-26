@@ -1,9 +1,0 @@
-{
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
-	"theme": "Default.sublime-theme",
-	"dictionary": "Packages/Language - English/en_GB.dic",
-	"font_options":	[ "bold" ],
-	"font_size": 12,
-	"rulers": [ 80 ],
-	"word_wrap": "true"
-}
