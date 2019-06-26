@@ -38,3 +38,12 @@ nnoremap ^ <nop>
 " turn off search highlight
 nnoremap /<space> :nohlsearch<CR>
 
+"Split options
+set splitbelow
+set splitright
+
+" Easier split navigations 
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
