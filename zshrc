@@ -61,3 +61,6 @@ man() {
     LESS_TERMCAP_us=$'\e[01;32m' \
     command man "$@"
 }
+
+# alias python3 as default python
+alias python=/usr/local/bin/python3
