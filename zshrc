@@ -68,3 +68,9 @@ alias pip=/usr/local/bin/pip3
 
 # add kubectl autocomplete
 [[ /usr/local/bin/kubectl ]] && source <(kubectl completion zsh)
+
+# The next line updates PATH for the Google Cloud SDK.
+source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+
+# The next line enables shell command completion for gcloud.
+source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
